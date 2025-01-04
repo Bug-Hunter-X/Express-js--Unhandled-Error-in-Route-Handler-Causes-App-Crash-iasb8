@@ -1,0 +1,3 @@
+# Express.js Unhandled Error Example
+
+This repo demonstrates a common error in Express.js applications: unhandled errors in route handlers leading to application crashes.  The `bug.js` file shows the problematic code, where a database error isn't properly handled, causing the app to crash. The `bugSolution.js` provides a fix by implementing proper error handling to gracefully handle database errors and return appropriate HTTP error responses.
